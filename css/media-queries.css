@@ -1,0 +1,145 @@
+@media screen and (max-width: 1140px) {
+    .navbar {
+        display:none
+    }
+
+    .mobile-navbar {
+        display:inline-block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 32px
+    }
+
+    .s-home .container .home-content-cta h1 {
+        font-size:6.4rem;
+    }
+
+    #s-contact .container h2 {
+        font-size:3.2rem;
+        width: 100%
+    }
+
+    #s-contact .container p {
+        font-size:1.8rem;
+        width: 100%
+    }
+}
+
+
+@media screen and (max-width: 1216px) {
+    .s-home {
+        height:100%
+    }
+
+    .s-home .container {
+        padding:40px 24px
+    }
+
+    .s-home .container .home-content-cta {
+        width:100%
+    }
+
+    .s-home .container .home-content-cta .home-description {
+        width:100%
+    }
+
+    .s-home .container .home-profile {
+        display:none
+    }
+
+    .s-projects .container {
+        padding:72px 24px
+    }
+
+    .s-projects .container .cards-projects {
+        flex-wrap:wrap
+    }
+
+    .s-projects .container .cards-projects article {
+        width:100%;
+    }
+
+    .s-projects .container .cards-projects .card-projects-void {
+        display:none
+    }
+
+    .s-knowledge .container {
+        padding:72px 24px
+    }
+
+    .s-knowledge .container>div h3 {
+        font-size:3.2em
+    }
+
+    .s-knowledge .container>div>p {
+        width:100%;
+        font-size: 1.8rem
+    }
+
+    .s-knowledge .container>div div {
+        flex-wrap:wrap
+    }
+
+    .s-knowledge .container .app-teslabank {
+        display:none
+    }
+
+    footer .container {
+        flex-wrap:wrap;
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .s-home .container .home-content-cta h1 {
+        font-size:4.8rem
+    }
+
+    .s-home .container .home-content-cta .home-description {
+        font-size:1.8rem
+    }
+
+    .s-projects .container h5 {
+        font-size:1.8rem
+    }
+
+    .s-projects .container h2 {
+        font-size:3.2rem
+    }
+
+    #s-contact .container div {
+        flex-wrap:wrap;
+        gap: 24px
+    }
+
+    #s-contact .container div a {
+        width:100%
+    }
+
+    footer .container>span {
+        display:none
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .s-home .container .home-content-cta .home-group-cta {
+        flex-direction:column;
+        align-items: flex-start
+    }
+
+    .s-home .container .home-content-cta .home-group-cta button {
+        width:100%;
+        justify-content: center
+    }
+
+    .s-home .container .home-content-cta .home-group-cta>div {
+        display:none
+    }
+
+    .s-knowledge .container>div div a {
+        width:100%;
+        justify-content: center
+    }
+}
